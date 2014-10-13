@@ -1,0 +1,22 @@
+{
+  "name": "json-mapper",
+  "version": "1.0.0",
+  "description": "Small mapper for JSONs. It allows you to convert one object to another with minimal effort.",
+  "keywords": [
+    "json",
+    "mapper"
+  ],
+  "main": "json-mapper.js",
+  "authors": [
+    "Oleg Nechiporenko"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "app/bower_components"
+  ]
+}
