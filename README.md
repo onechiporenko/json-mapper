@@ -4,6 +4,8 @@
 Small mapper for JSONs. It allows you to convert one object to another with minimal effort.
 It's similar to [Ember-json-mapper](https://github.com/onechiporenko/ember-json-mapper), but without any dependencies.
 
+### [DEMO](http://onechiporenko.github.io/json-mapper/) - check it live
+
 ### Installing
 ````
 bower i json-mapper
