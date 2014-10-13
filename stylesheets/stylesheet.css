@@ -44,6 +44,17 @@ table {
   border-spacing: 0;
 }
 
+textarea {
+    display: block;
+    width: 100%;
+    min-height: 350px;
+    resize: none;
+}
+
+label {
+    font-weight: 700;
+}
+
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
@@ -232,7 +243,7 @@ hr {
 }
 
 table {
-  border: 1px solid #373737;
+
   margin-bottom: 20px;
   text-align: left;
  }
@@ -246,12 +257,11 @@ th {
 
 td {
   padding: 10px;
-  border: 1px solid #373737;
+
  }
 
 form {
   background: #f2f2f2;
-  padding: 20px;
 }
 
 /*******************************************************************************
@@ -264,9 +274,13 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 1000px;
   padding: 20px 10px;
   margin: 0 auto;
+}
+
+.demo {
+    width: 100%;
 }
 
 #forkme_banner {
